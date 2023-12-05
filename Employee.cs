@@ -122,6 +122,13 @@ namespace Employee
             this[2] = (int) _degree ;
         }
 
+        public void PrintDetails()
+        {
+            Console.WriteLine($"Employee FullId : {FullId}");
+            Console.WriteLine($"Employee Governorate : {GetGovernorate()}");
+            Console.WriteLine($"Employee Id : {GetId()}");
+            Console.WriteLine($"Employee Degree : {DegreeOfEmployee}");
+        }
 
     }
 }
